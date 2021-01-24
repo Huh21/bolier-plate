@@ -11,7 +11,7 @@ const userSchema = mongoose.Schema({
         unique: 1
     },
     password: {
-        tpye: String,
+        type: String,
         minlength: 5
     },
     lastname: {
